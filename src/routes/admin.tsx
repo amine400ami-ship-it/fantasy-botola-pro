@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { AdminScreen } from '@/components/fantasy/secondary-screens';
+export const Route = createFileRoute('/admin')({head:()=>({meta:[{title:'Commissionnaire — Fantasy Botola'},{name:'description',content:'Espace de gestion des journées et des résultats réservé aux commissionnaires Fantasy Botola.'},{property:'og:title',content:'Commissionnaire — Fantasy Botola'},{property:'og:description',content:'Espace de gestion des journées et des résultats réservé aux commissionnaires Fantasy Botola.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:AdminScreen});

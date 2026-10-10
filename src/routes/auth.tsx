@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { AuthScreen } from '@/components/fantasy/secondary-screens';
+export const Route = createFileRoute('/auth')({head:()=>({meta:[{title:'Connexion — Fantasy Botola'},{name:'description',content:'Rejoignez Fantasy Botola avec votre compte et composez votre équipe du championnat marocain.'},{property:'og:title',content:'Connexion — Fantasy Botola'},{property:'og:description',content:'Rejoignez Fantasy Botola avec votre compte et composez votre équipe du championnat marocain.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:AuthScreen});

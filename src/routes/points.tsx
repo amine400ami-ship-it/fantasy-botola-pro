@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { PointsScreen } from '@/components/fantasy/secondary-screens';
+export const Route = createFileRoute('/points')({head:()=>({meta:[{title:'Mes points — Fantasy Botola'},{name:'description',content:'Retrouvez les points de votre équipe et les performances de chaque joueur par journée.'},{property:'og:title',content:'Mes points — Fantasy Botola'},{property:'og:description',content:'Retrouvez les points de votre équipe et les performances de chaque joueur par journée.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:PointsScreen});
