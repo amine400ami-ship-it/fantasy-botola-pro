@@ -14,3 +14,4 @@
 - Use a shared root FantasyProvider for runtime catalog and visit-scoped discovery squad so navigation preserves team selections without pretending they were saved.
 - Use separate public French screen routes with leaf metadata and shared FantasyShell; commissioner operations and account persistence must remain unavailable until the existing backend is connected and its authorization is verified.
 - Kit colors are external domain data rendered as SVG attributes; application surface colors and interactive variants are semantic tokens in the global design system.
+- Fetch catalogs from the supplied runtime URLs first, falling back to same-origin JSON snapshots because the upstream host does not permit browser cross-origin reads.
