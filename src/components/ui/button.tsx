@@ -9,6 +9,17 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        neon: "neon-button",
+        nav: "nav-button",
+        header: "header-button",
+        tab: "tab-button",
+        player: "player-tile",
+        view: "view-button",
+        chip: "chip-button",
+        filter: "filter-button",
+        add: "add-button",
+        added: "added-button",
+        listplayer: "listplayer-button",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:

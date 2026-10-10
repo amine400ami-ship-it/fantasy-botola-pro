@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { StandingsScreen } from '@/components/fantasy/secondary-screens';
+export const Route = createFileRoute('/classement')({head:()=>({meta:[{title:'Classement — Fantasy Botola'},{name:'description',content:'Suivez la course au titre de la ligue Fantasy Botola et partagez-la avec vos amis.'},{property:'og:title',content:'Classement — Fantasy Botola'},{property:'og:description',content:'Suivez la course au titre de la ligue Fantasy Botola et partagez-la avec vos amis.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:StandingsScreen});
